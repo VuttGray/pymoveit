@@ -13,11 +13,11 @@ logger = logging.getLogger('logger')
 
 class MoveitConfig:
     def __init__(self, **kwargs):
-        self.base_url = kwargs.pop('base_url')
-        self.user_login = kwargs.pop('user_login')
-        self.user_password = kwargs.pop('user_password')
-        self.sql_server = kwargs.pop('sql_server')
-        self.db_name = kwargs.pop('db_name')
+        self.base_url = kwargs.pop('mi9_base_url')
+        self.user_login = kwargs.pop('mi9_user_login')
+        self.user_password = kwargs.pop('mi9_user_password')
+        self.sql_server = kwargs.pop('mi9_sql_server')
+        self.db_name = kwargs.pop('mi9_db_name')
 
 
 conf: MoveitConfig
